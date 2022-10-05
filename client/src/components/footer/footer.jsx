@@ -15,11 +15,15 @@ export default function Footer() {
             </div>
 
             <div className={style.containerInfo}>
-                <h4>About</h4>
-                <h4>Services</h4>
-                <h4>Products</h4>
-                <h4>Details</h4>
-                <h4>Contact</h4>
+                <div>
+                    <h4>About</h4>
+                    <h4>Services</h4>
+                    <h4>Products</h4>
+                </div>
+                <div>
+                    <h4>Details</h4>
+                    <h4>Contact</h4>
+                </div>
             </div>
 
             <div className={style.containerIconos}>

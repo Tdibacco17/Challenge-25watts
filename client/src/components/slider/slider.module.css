@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&family=Roboto:wght@500&display=swap');
+
+.containerAll {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    width: 1366px;
+    height: 768px;
+}
+
+/*---contenido---*/
+.slide {
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 100ms;
+    animation-name: autoplay;
+    animation-duration: 6.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.slideItem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+
+.slideItem img {
+    width: 1366px;
+    height: 768px;
+    border-radius: 0;
+    opacity: 1;
+}
+
+.slideItem h1 {
+    position: absolute;
+    top: 272px;
+    left: 101px;
+    width: 570px;
+    height: 115px;
+    text-align: left;
+    font: normal normal 600 48px/48px Poppins;
+    letter-spacing: 0.67px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.slideItem h4 {
+    position: absolute;
+    top: 426px;
+    left: 101px;
+    width: 372px;
+    height: 42px;
+    text-align: left;
+    font: normal normal 400 16px/21px Roboto;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.slideItem button {
+    position: absolute;
+    top: 512px;
+    left: 101px;
+    width: 144px;
+    height: 48px;
+    background: #E0752F 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    font: normal normal 400 16px/21px Roboto;
+    border: none;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/*---botones---*/
+.pagination {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 621px;
+    left: 101px;
+    width: 50px;
+    height: 8px;
+    opacity: 1;
+}
+
+.paginationItem {
+    width: 8px;
+    height: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #FFFFFF;
+    transition: all 300ms;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+input[id="1"]:checked~.slide {
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+input[id="1"]:checked~.pagination .paginationItem[for="1"] {
+    background: #E0752F 0% 0% no-repeat padding-box;
+}
+
+input[id="2"]:checked~.slide {
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+input[id="2"]:checked~.pagination .paginationItem[for="2"] {
+    background: #E0752F 0% 0% no-repeat padding-box;
+}
+
+input[id="3"]:checked~.slide {
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+input[id="3"]:checked~.pagination .paginationItem[for="3"] {
+    background: #E0752F 0% 0% no-repeat padding-box;
+}
+
+@keyframes autoplay {
+    33.33% {
+        transform: translate3d(calc(-100% * 0), 0, 0);
+    }
+
+    66.66% {
+        transform: translate3d(calc(-100% * 1), 0, 0);
+    }
+
+    100% {
+        transform: translate3d(calc(-100% * 2), 0, 0);
+    }
+}

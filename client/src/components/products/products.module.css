@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&family=Roboto:wght@500&display=swap');
+
+.containerAll {
+    top: 1992px;
+    left: 0px;
+    width: 1366px;
+    height: 752px;
+    background: #DCE1DA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.containerAll h3 {
+    position: absolute;
+    top: 2098px;
+    left: 634px;
+    width: 98px;
+    height: 29px;
+    text-align: center;
+    font: normal normal 600 21px/28px Poppins;
+    letter-spacing: 0.29px;
+    color: #E0752F;
+    opacity: 1;
+}
+
+.containerAll h1 {
+    position: absolute;
+    top: 2127px;
+    left: 299px;
+    width: 768px;
+    height: 55px;
+    text-align: center;
+    font: normal normal 600 39px/45px Poppins;
+    letter-spacing: 0.55px;
+    color: #343434;
+    opacity: 1;
+}

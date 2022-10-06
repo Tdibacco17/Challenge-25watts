@@ -46,63 +46,63 @@ export const contenidoServices = [{
 }]
 export const contenidoProducts=[
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 1",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 2",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 3",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 4",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 5",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 6",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 7",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 8",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 9",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 10",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 11",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 12",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 13",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 14",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
     {
-        titulo: "Aliquam at dui lorem ipsum",
+        titulo: "Aliquam at dui lorem ipsum CARD 15",
         descripcion:"- Ut mattis gravida efficitur. - Ut feugiat vehicula nibh, efficitur laoreet justo. - Molestie id. Integer varius enim sit amet egestas. - Ut mattis gravida efficitur."
     },
 ]

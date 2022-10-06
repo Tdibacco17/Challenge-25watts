@@ -12,7 +12,7 @@ export default function Contact() {
             </div>
             <img
                 src={imagen}
-                atl="Img" />
+                alt="Img" />
             <div className={style.formulario}>
                 <form >
                     <div>

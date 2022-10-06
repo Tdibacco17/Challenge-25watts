@@ -36,3 +36,88 @@
     color: #343434;
     opacity: 1;
 }
+
+.containerCards {
+    width: 276px;
+    height: 408px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-bottom: 8px solid #E0752F;
+}
+
+.containerCardsTitulo {
+    position: relative;
+    top: 43px;
+    left: 24px;
+    width: 228px;
+    height: 57px;
+}
+
+.containerCards h2 {
+    text-align: left;
+    font: normal normal 600 21px/28px Poppins;
+    letter-spacing: 0.29px;
+    color: #343434;
+    opacity: 1;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 38px;
+    /* left: 24px; */
+    width: 226px;
+    height: 221px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-top: 25px;
+    padding-right: 0px;
+}
+
+.cardContent h4 {
+    text-align: left;
+    font: normal normal 400 16px/28px Roboto;
+    letter-spacing: 0.22px;
+    color: #343434;
+    opacity: 1;
+    width: 228px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerCardsPaginado {
+    position: absolute;
+    top: 2232px;
+    left: 101px;
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+}
+
+#buttonPrevious {
+    position: relative;
+    top: 204px;
+    background: transparent;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+
+#buttonNext {
+    position: relative;
+    top: 204px;
+    background: transparent;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+
+.containerAll img {
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+}

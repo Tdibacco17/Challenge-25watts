@@ -1,5 +1,5 @@
 import style from "./navbar.module.css";
-import logo25Watts from "./logo_25w.png";
+import logo25Watts from "./imagenes/logo_25w.png";
 import { useState } from "react";
 
 export default function Navbar() {

@@ -1,4 +1,4 @@
-import imagen from "./urn_aaid_sc_US_6917e143-6516-4abf-80f3-6062b95b4ebc.png"
+import imagen from "./imagenes/urn_aaid_sc_US_6917e143-6516-4abf-80f3-6062b95b4ebc.png"
 import style from "./contact.module.css";
 import { useState } from "react";
 import { useDispatch } from "react-redux";

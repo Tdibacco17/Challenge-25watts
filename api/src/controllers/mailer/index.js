@@ -2,7 +2,8 @@ import nodemailer from "nodemailer";
 
 export const sendMail = async (req, res) => {
     const { name, email, phone, message } = req.body;
-
+    
+    
     try {
         let transporter = nodemailer.createTransport({
             host: process.env.EMAIL_SERVICE,
@@ -37,7 +38,8 @@ export const sendMail = async (req, res) => {
                 return console.log('Message sent: ' + info.response);
             }
         })
-        return res.send("no entro al transporter.sendMail()")
+        return
+        // return res.send("no entro al transporter.sendMail()")
     } catch (e) {
         console.log(e.message)
     }

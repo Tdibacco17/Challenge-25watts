@@ -15,12 +15,10 @@ export default function Products() {
 
     const nextPage = () => {
         setPagina(pagina + 1);
-        console.log("avanzo")
     }
 
     const previousPage = () => {
         setPagina(pagina - 1);
-        console.log("atras")
     }
 
     return (

@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { slider, aboutUs, services, products, moreDetails } from "../controllers/index.js";
-import { mailer } from "../controllers/mailer/index.js";
+import { sendMail } from "../controllers/mailer/index.js";
 
 export const router = Router();
 
@@ -9,5 +9,5 @@ router.get("/aboutUs", aboutUs);
 router.get("/services", services);
 router.get("/products", products);
 router.get("/moreDetails", moreDetails);
-router.post("/mailer", mailer)
+router.get("/mailer", sendMail)
 

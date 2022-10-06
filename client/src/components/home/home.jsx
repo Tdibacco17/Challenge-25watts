@@ -30,7 +30,7 @@ export default function Home() {
             <AboutUs />
             <Services />
             <Products />
-            <MoreDetails />
+            <MoreDetails /> 
             <Contact />
             <Footer/>
         </div>

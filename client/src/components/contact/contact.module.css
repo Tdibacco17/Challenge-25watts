@@ -67,6 +67,7 @@
 #tituloNegro:focus {
     background: transparent;
     outline: none;
+    color: #E0752F;
     box-shadow: inset 0 -2px 0 #E0752F;
 }
 
@@ -122,4 +123,17 @@
     color: #FFFFFF;
     opacity: 1;
     border: none;
+}
+
+.containerErrors{
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 45px;
+}
+.containerErrors p{
+    margin-right: 35px;
+    font: normal normal 400 16px/21px Roboto;
+    color: #e0412f;
+    opacity: 1;
 }

@@ -50,3 +50,9 @@ export function getMoreDetails(){
     }
 }
 
+export function sendEmail(payload) { 
+    return async function(dispatch){
+        const json = await axios.post("http://localhost:3000/mailer",payload);
+        return json;
+    };
+};

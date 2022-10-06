@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 
 export const sendMail = async (req, res) => {
-    // const { name, email, phone, message } = req.body;
+    const { name, email, phone, message } = req.body;
 
     try {
         let transporter = nodemailer.createTransport({
@@ -20,19 +20,24 @@ export const sendMail = async (req, res) => {
         let info = await transporter.sendMail({
             from: process.env.EMAIL_SENDER, // sender address
             to: process.env.EMAIL_SENDER, // list of receivers
-            subject: "Prueba nodemailer ✔", // Subject line
-            text: "Funciona ✔", // plain text body
-            html: "<b>Hello world?</b>", // html body
+            subject: `${name} te envio un mensaje`, // Subject line
+            text: `
+            nombre= ${name}
+            email= ${email}
+            telefono= ${phone}
+            ${message}
+            `, // plain text body
+            // html: "<b>{asdas}</b>", // html body
         });
 
         transporter.sendMail(info, (error, info) => {
             if (error) {
                 return console.log(error)
             } else {
-                console.log('Message sent: ' + info.response);
+                return console.log('Message sent: ' + info.response);
             }
         })
-
+        return res.send("no entro al transporter.sendMail()")
     } catch (e) {
         console.log(e.message)
     }

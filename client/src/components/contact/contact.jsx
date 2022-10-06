@@ -1,6 +1,8 @@
 import imagen from "./urn_aaid_sc_US_6917e143-6516-4abf-80f3-6062b95b4ebc.png"
 import style from "./contact.module.css";
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { sendEmail } from "../../actions/index";
 
 function validate(input) {
     let errors = {};
@@ -23,6 +25,8 @@ function validate(input) {
 
 export default function Contact() {
 
+    const dispatch = useDispatch()
+
     const [errors, setErrors] = useState({});
 
     const [input, setInput] = useState({
@@ -31,6 +35,7 @@ export default function Contact() {
         phone: "",
         message: ""
     })
+    
 
     function handleChange(e) {
         setInput({
@@ -45,7 +50,8 @@ export default function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        alert("Mensaje enviado con exito!");
+        dispatch(sendEmail(input))
+        alert("Mensaje enviado con exito!"); 
         setInput({
             name: "",
             email: "",

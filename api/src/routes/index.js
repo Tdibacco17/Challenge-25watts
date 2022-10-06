@@ -9,5 +9,5 @@ router.get("/aboutUs", aboutUs);
 router.get("/services", services);
 router.get("/products", products);
 router.get("/moreDetails", moreDetails);
-router.get("/mailer", sendMail)
+router.post("/mailer", sendMail)
 

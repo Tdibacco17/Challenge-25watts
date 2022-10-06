@@ -42,6 +42,7 @@ export default function MoreDetails() {
                     )
                 })
             }
+            <div id="Contact"/>
         </div>
     )
 }

@@ -4,7 +4,7 @@ import style from "./aboutUs.module.css";
 export default function AboutUs() {
     const aboutUs = useSelector(state => state.aboutUs)
     return (
-        <div className={style.containerAll}>
+        <div  className={style.containerAll}>
             {
                 aboutUs.map((e, i) => {
                     return (
@@ -19,7 +19,7 @@ export default function AboutUs() {
                                     <h1 id={style.tituloNaranja}>{e.titulo.slice(8)}</h1>
                                 </div>
                                 <h4>{e.descripcion}</h4>
-                                <button>More info</button>
+                                <button id="Services">More info</button>
                             </div>
                         </div>
                     )

@@ -6,7 +6,7 @@ export default function Slider() {
     const slider = useSelector(state => state.slider)
 
     return (
-        <div className={style.containerAll}>
+        <div id="Home" className={style.containerAll}>
             <input type="radio" id="1" name="image_slide" hidden />
             <input type="radio" id="2" name="image_slide" hidden />
             <input type="radio" id="3" name="image_slide" hidden />
@@ -26,7 +26,7 @@ export default function Slider() {
                 }
             </div>
 
-            <div className={style.pagination}>
+            <div id="AboutUs" className={style.pagination}>
                 <label className={style.paginationItem} htmlFor="1" />
                 <label className={style.paginationItem} htmlFor="2" />
                 <label className={style.paginationItem} htmlFor="3" />

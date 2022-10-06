@@ -16,24 +16,24 @@ export default function Footer() {
 
             <div className={style.containerInfo}>
                 <div>
-                    <h4>About</h4>
-                    <h4>Services</h4>
-                    <h4>Products</h4>
+                    <a href="#AboutUs"><h4>About</h4></a>
+                    <a href="#Services"><h4>Services</h4></a>
+                    <a href="#Products"><h4>Products</h4></a>
                 </div>
                 <div>
-                    <h4>Details</h4>
-                    <h4>Contact</h4>
+                    <a href="#MoreDetails"><h4>Details</h4></a>
+                    <a href="#Contact"><h4>Contact</h4></a>
                 </div>
             </div>
 
             <div className={style.containerIconos}>
                 <h3>Follow us</h3>
                 <div className={style.containerIconosEspaciado}>
-                    <img src={instagram} alt="Img" />
-                    <img src={facebook} alt="Img" />
-                    <img src={twitter} alt="Img" />
-                    <img src={youtube} alt="Img" />
-                    <img src={linkedin} alt="Img" />
+                    <a href="https://www.linkedin.com/company/25watts/"><img src={instagram} alt="Img" /></a>
+                    <a href="https://www.linkedin.com/company/25watts/"><img src={facebook} alt="Img" /></a>
+                    <a href="https://www.linkedin.com/company/25watts/"><img src={twitter} alt="Img" /></a>
+                    <a href="https://www.linkedin.com/company/25watts/"><img src={youtube} alt="Img" /></a>
+                    <a href="https://www.linkedin.com/company/25watts/"><img src={linkedin} alt="Img" /></a>
                 </div>
             </div>
         </div>

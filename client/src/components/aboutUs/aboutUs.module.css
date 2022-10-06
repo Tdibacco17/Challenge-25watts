@@ -80,6 +80,10 @@
     opacity: 1;
 }
 
+.containerText button:hover {
+    cursor: pointer;
+}
+
 #tituloNaranja{
     color: #E0752F;
 }

@@ -116,6 +116,22 @@
     height: 32px;
 }
 
+#buttonPrevious:hover {
+    cursor: pointer;
+}
+
+#buttonPrevious:hover[disabled]{
+    cursor:default;
+}
+
+#buttonNext:hover {
+    cursor: pointer;
+}
+
+#buttonNext:hover[disabled]{
+    cursor:default;
+}
+
 .containerAll img {
     width: 32px;
     height: 32px;

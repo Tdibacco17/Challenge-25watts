@@ -124,6 +124,12 @@
     opacity: 1;
     border: none;
 }
+.formulario button:hover{
+    cursor: pointer;
+}
+.formulario button:hover[disabled]{
+    cursor:default;
+}
 
 .containerErrors{
     width: 800px;

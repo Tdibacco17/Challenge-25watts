@@ -6,7 +6,7 @@ export default function Services() {
     const services = useSelector(state => state.services)
 
     return (
-        <div>
+        <div >
             {
                 services.map((e, i) => {
                     return (
@@ -19,7 +19,7 @@ export default function Services() {
                                     return (
                                         <div className={style.centradoContenidoIcons} key={h}>
                                                 <img src={j.imagen} alt="Img" />
-                                                <h3>{j.descripcion}</h3>
+                                                <h3 id="Products">{j.descripcion}</h3>
                                         </div>
                                     )
                                 })

@@ -78,6 +78,10 @@
     opacity: 1;
 }
 
+.slideItem button:hover {
+    cursor: pointer;
+}
+
 /*---botones---*/
 .pagination {
     position: absolute;

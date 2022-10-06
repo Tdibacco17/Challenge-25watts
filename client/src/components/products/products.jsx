@@ -51,6 +51,7 @@ export default function Products() {
                                             )
                                         })
                                     }
+                                    <div id="MoreDetails"/>
                                 </div>
                             </div>
                         )

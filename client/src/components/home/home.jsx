@@ -11,7 +11,6 @@ import Footer from "../footer/footer";
 
 import { getSlider, getAboutUs, getServices, getProducts, getMoreDetails } from "../../actions/index";
 
-
 export default function Home() {
 
     const dispatch = useDispatch();

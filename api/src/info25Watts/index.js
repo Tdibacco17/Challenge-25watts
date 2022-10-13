@@ -2,17 +2,17 @@ export const contenidoSlider = [
     {
         titulo: "Sed ut perspiciatis unde omnis iste natus",
         descripcion: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.",
-        imagen: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:6917e143-6516-4abf-80f3-6062b95b4ebc;revision=0?component_id=aec449ce-8219-4167-883e-5e607cbbc55b&api_key=CometServer1&access_token=1664937125_urn%3Aaaid%3Asc%3AUS%3A6917e143-6516-4abf-80f3-6062b95b4ebc%3Bpublic_14670ff9069a28c09ba53289d638852155864907",
+        imagen: "http://localhost:3000/slider1.png",
     },
     {
         titulo: "Proin elementum massa et felis",
         descripcion: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.",
-        imagen: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:6917e143-6516-4abf-80f3-6062b95b4ebc;revision=0?component_id=a91c7418-abdf-475e-8908-60e81762f44b&api_key=CometServer1&access_token=1664937125_urn%3Aaaid%3Asc%3AUS%3A6917e143-6516-4abf-80f3-6062b95b4ebc%3Bpublic_14670ff9069a28c09ba53289d638852155864907",
+        imagen: "http://localhost:3000/slider2.png",
     },
     {
         titulo: "Nulla rhoncus vulputate congue",
         descripcion: "Aenean rutrum eros nec lacus vehicula semper euismod dui aliquam.",
-        imagen: "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:6917e143-6516-4abf-80f3-6062b95b4ebc;revision=0?component_id=c0a871ad-d660-4191-8221-bcd0dfb7f0c3&api_key=CometServer1&access_token=1664937125_urn%3Aaaid%3Asc%3AUS%3A6917e143-6516-4abf-80f3-6062b95b4ebc%3Bpublic_14670ff9069a28c09ba53289d638852155864907",
+        imagen: "http://localhost:3000/slider3.png",
     }
 ]
 

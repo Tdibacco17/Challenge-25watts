@@ -1,4 +1,4 @@
-## landingPage-25watts
+## LandingPage-25watts
 
  ### Notas 
  
@@ -16,6 +16,7 @@
 >
 >  +  landingPage-25watts\api
 >  +  landingPage-25watts\client
+>  
 > Y hacer un "npm start" (en ambas)
 
 </br>

@@ -1,6 +1,9 @@
 ### landingPage-25watts
 
-> ### Notas
+ ### Notas 
+ 
+ </br>
+ 
 > Para instalar las dependencias pararse en la carpeta:
 >  +  landingPage-25watts\api
 >  +  landingPage-25watts\client
